@@ -1,0 +1,42 @@
+name: SIMBA
+description: "Aplikasi Monitoring Peringatan banjir"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.30.0
+  firebase_database: ^10.0.0
+  firebase_messaging: ^14.7.0
+  flutter_local_notifications: ^17.1.2
+  shared_preferences: ^2.0.15
+  google_fonts: ^6.0.0
+  animations: ^2.0.8
+
+dependency_overrides:
+  firebase_messaging_web: 3.5.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
+    - assets/logo2.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo2.png"
+  color: "#ffffff"
+

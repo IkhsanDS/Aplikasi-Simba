@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "237697871274",
+    "firebase_url": "https://monitoringbanjiramikom-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "monitoringbanjiramikom",
+    "storage_bucket": "monitoringbanjiramikom.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237697871274:android:86d29b59f5b39a6ebe8fd3",
+        "android_client_info": {
+          "package_name": "com.example.monitoringapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuk8-2sJ33HoqS1vZxIyMRd0WEt3x7cj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237697871274:android:5ca087da7f792997be8fd3",
+        "android_client_info": {
+          "package_name": "com.tazri.monitoringapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuk8-2sJ33HoqS1vZxIyMRd0WEt3x7cj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
