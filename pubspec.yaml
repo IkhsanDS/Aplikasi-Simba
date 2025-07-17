@@ -13,11 +13,13 @@ dependencies:
   cupertino_icons: ^1.0.8
   firebase_core: ^2.30.0
   firebase_database: ^10.0.0
-  firebase_messaging: ^14.7.0
-  flutter_local_notifications: ^17.1.2
+  firebase_messaging: ^14.7.1
+  flutter_local_notifications: ^15.1.1
   shared_preferences: ^2.0.15
   google_fonts: ^6.0.0
   animations: ^2.0.8
+  http: 1.4.0
+
 
 dependency_overrides:
   firebase_messaging_web: 3.5.15
