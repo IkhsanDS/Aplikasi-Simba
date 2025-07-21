@@ -16,11 +16,12 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 
 Future<void> _showNotification(RemoteMessage message) async {
   const AndroidNotificationDetails androidDetails = AndroidNotificationDetails(
-    'high_importance_channel', // channel ID
-    'High Importance Notifications', // channel name
-    channelDescription: 'Digunakan untuk notifikasi penting',
+    'peringatan_banjir', // channelId HARUS sama
+    'Peringatan Banjir',
+    channelDescription: 'Notifikasi jika status air bahaya atau waspada',
     importance: Importance.high,
     priority: Priority.high,
+    sound: RawResourceAndroidNotificationSound('bahaya'), // pakai sound custom
     ticker: 'ticker',
   );
 
@@ -43,7 +44,7 @@ void main() async {
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   // Subscribe ke topik
-  await FirebaseMessaging.instance.subscribeToTopic('Perinngatan Banjir');
+  await FirebaseMessaging.instance.subscribeToTopic('peringatan_banjir');
 
   // Inisialisasi notifikasi lokal
   const AndroidInitializationSettings initializationSettingsAndroid =

@@ -1,5 +1,5 @@
+import 'package:SIMBA/Screen/monitoring_page.dart';
 import 'package:flutter/material.dart';
-import 'access_code_page.dart';
 
 class SplashScreen extends StatefulWidget {
   final VoidCallback toggleTheme;
@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     if (!mounted) return;
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(builder: (_) => const AccessCodePage()),
+      MaterialPageRoute(builder: (_) => MonitoringPage(toggleTheme: widget.toggleTheme)),
     );
   }
 
