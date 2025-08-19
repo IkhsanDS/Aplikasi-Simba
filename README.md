@@ -39,7 +39,7 @@ Proyek ini menggunakan Flutter (mobile app), Firebase Realtime Database, serta N
 <p align="left">
   <img src="images/pict1.jpg" width="250"/>
   <img src="images/pict2.jpg" width="250"/>
-  <img src="images/pict3.jpg" width="250"/>
+  <img src="images/pict4.jpg" width="250"/>
 </p>
 
 ---
