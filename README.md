@@ -36,11 +36,14 @@ Proyek ini menggunakan Flutter (mobile app), Firebase Realtime Database, serta N
 - **Dashboard Monitoring**: menampilkan status air, jarak, tinggi air, suhu, kelembapan, tekanan, curah hujan.
 - **Notifikasi**: alert otomatis ketika status berubah.  
 - **Halaman Tentang**: deskripsi aplikasi.
+<p align="left">
+  <img src="images/pict1.jpg" width="250"/>
+  <img src="images/pict2.jpg" width="250"/>
+  <img src="images/pict3.jpg" width="250"/>
+</p>
 
 ---
 
 ## Alur kerja Sistem
-
-
-## 🚀 Cara Instalasi
-
+<p align = "left">
+  <img src="images/picc5.jpg""/>
