@@ -46,8 +46,7 @@ class _MonitoringPageState extends State<MonitoringPage> {
             data['status_air']?.toString() ?? "Tidak diketahui";
         final currentTinggiAir =
             data['tinggi_air']?.toString() ?? "Tidak diketahui";
-        final jarak =
-            data['jarak']?.toString() ?? "Tidak diketahui";
+        final jarak = data['jarak']?.toString() ?? "Tidak diketahui";
 
         final now = DateTime.now();
         final formattedTime =
@@ -464,7 +463,11 @@ class _MonitoringPageState extends State<MonitoringPage> {
               if (!mounted) return;
               Navigator.pushReplacement(
                 context,
-                MaterialPageRoute(builder: (context) => MonitoringPage(toggleTheme: widget.toggleTheme)),
+                MaterialPageRoute(
+                  builder:
+                      (context) =>
+                          MonitoringPage(toggleTheme: widget.toggleTheme),
+                ),
               );
             },
           ),
